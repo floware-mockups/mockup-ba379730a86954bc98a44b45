@@ -1,0 +1,253 @@
+{
+  "title": "Registro della formazione del personale",
+  "description": "Registra i corsi svolti, controlla attestati e ore annuali e individua le verifiche da completare.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "quadro-formazione",
+      "title": "Quadro formazione",
+      "description": "Riepilogo dei corsi registrati, delle ore e delle verifiche in sospeso.",
+      "metrics": [
+        {
+          "label": "Corsi registrati",
+          "value": "48"
+        },
+        {
+          "label": "Ore nell’anno",
+          "value": "326"
+        },
+        {
+          "label": "Verifiche da fare",
+          "value": "4"
+        },
+        {
+          "label": "Attestati da controllare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Da controllare",
+        "Dipendente",
+        "Corso",
+        "Data",
+        "Scadenza verifica",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Confermare ente e durata",
+          "Nubi Lario",
+          "Gestione documentale",
+          "12/02/2026",
+          "18/02/2026",
+          "Da verificare"
+        ],
+        [
+          "Confermare modalità",
+          "Vela Orione",
+          "Comunicazione chiara",
+          "14/02/2026",
+          "20/02/2026",
+          "Da verificare"
+        ],
+        [
+          "Controllare attestato",
+          "Lumo Cedro",
+          "Sicurezza operativa",
+          "16/02/2026",
+          "22/02/2026",
+          "Attestato da controllare"
+        ],
+        [
+          "Nessuna verifica in sospeso",
+          "Vela Brina",
+          "Strumenti digitali",
+          "17/02/2026",
+          "—",
+          "Registrato"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-corsi",
+      "title": "Registro corsi",
+      "description": "Cerca e filtra i corsi. Aggiungi una registrazione per un corso svolto o inserisci i dati comunicati dal dipendente.",
+      "metrics": [
+        {
+          "label": "Registrazioni",
+          "value": "48"
+        },
+        {
+          "label": "In presenza",
+          "value": "21"
+        },
+        {
+          "label": "Online",
+          "value": "27"
+        },
+        {
+          "label": "In attesa di controllo",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Dipendente",
+        "Corso",
+        "Ente erogatore",
+        "Tipo di corso",
+        "Durata (ore)",
+        "Modalità",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Nubi Lario",
+          "Gestione documentale",
+          "Officina Lume",
+          "Aggiornamento",
+          "6",
+          "Online",
+          "12/02/2026",
+          "Da verificare"
+        ],
+        [
+          "Vela Orione",
+          "Comunicazione chiara",
+          "Atelier Cedro",
+          "Competenze trasversali",
+          "4",
+          "In presenza",
+          "14/02/2026",
+          "Da verificare"
+        ],
+        [
+          "Lumo Cedro",
+          "Sicurezza operativa",
+          "Scuola Nubi",
+          "Obbligatorio",
+          "8",
+          "In presenza",
+          "16/02/2026",
+          "Attestato da controllare"
+        ],
+        [
+          "Vela Brina",
+          "Strumenti digitali",
+          "Officina Lume",
+          "Aggiornamento",
+          "5",
+          "Online",
+          "17/02/2026",
+          "Registrato"
+        ],
+        [
+          "Nubi Mirto",
+          "Organizzazione del lavoro",
+          "Atelier Cedro",
+          "Competenze trasversali",
+          "3",
+          "Online",
+          "18/02/2026",
+          "Registrato"
+        ]
+      ],
+      "form": [
+        "Dipendente",
+        "Corso",
+        "Ente erogatore",
+        "Tipo di corso",
+        "Durata (ore)",
+        "Modalità",
+        "Data",
+        "Stato"
+      ]
+    },
+    {
+      "id": "ore-annuali",
+      "title": "Ore annuali",
+      "description": "Controlla le ore registrate per ciascun dipendente e individua i conteggi da verificare.",
+      "metrics": [
+        {
+          "label": "Ore registrate",
+          "value": "326"
+        },
+        {
+          "label": "Dipendenti con corsi",
+          "value": "12"
+        },
+        {
+          "label": "Conteggi da controllare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Dipendente",
+        "Anno",
+        "Corsi registrati",
+        "Ore totali",
+        "Obiettivo ore",
+        "Ore mancanti",
+        "Ultimo corso",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Nubi Lario",
+          "2026",
+          "3",
+          "18",
+          "24",
+          "6",
+          "Gestione documentale",
+          "Da completare"
+        ],
+        [
+          "Vela Orione",
+          "2026",
+          "4",
+          "24",
+          "24",
+          "0",
+          "Comunicazione chiara",
+          "Obiettivo raggiunto"
+        ],
+        [
+          "Lumo Cedro",
+          "2026",
+          "2",
+          "16",
+          "24",
+          "8",
+          "Sicurezza operativa",
+          "Da completare"
+        ],
+        [
+          "Vela Brina",
+          "2026",
+          "3",
+          "15",
+          "24",
+          "9",
+          "Strumenti digitali",
+          "Da completare"
+        ]
+      ],
+      "form": [
+        "Dipendente",
+        "Anno",
+        "Corsi registrati",
+        "Ore totali",
+        "Obiettivo ore",
+        "Ore mancanti",
+        "Ultimo corso",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "bordeaux-oro",
+    "fonts": "classico"
+  }
+}
